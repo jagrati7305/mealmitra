@@ -33,7 +33,12 @@ class MyApp extends StatelessWidget {
       home:Scaffold(
         body: Center(
           child: Text(
-            'MealMitra'
+            'MealMitra',
+
+            style: TextStyle(
+              fontFamily: 'PlusJakartaSans',
+              fontSize: 24
+            ),
           )
         )
       )
